@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project 1"
+    },
+    {
+      "id": 2,
+      "name": "Project 2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "task 1",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "name": "task 2",
+      "projectId": 1
+    },
+    {
+      "name": "task 3",
+      "projectId": 1,
+      "id": 4
+    },
+    {
+      "name": "task 1",
+      "projectId": 2,
+      "id": 5
+    },
+    {
+      "name": "task 2",
+      "projectId": "2",
+      "id": 6
+    },
+    {
+      "name": "task 3",
+      "projectId": 2,
+      "id": 7
+    },
+    {
+      "name": "task 4",
+      "projectId": 2,
+      "id": 8
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "Card 111",
+      "description": "Card 1 description",
+      "date": "01/01/2019",
+      "taskId": "1"
+    }
+  ]
+}
